@@ -28,7 +28,7 @@ export default function CartItem({item , value}) {
          <span className="btn btn-black mx-1" onClick={ ()=> increment(id)} >
          +
          </span>
-       </div>tempCart
+       </div>
       </div>
       {/* */}
       <div className="col-10 mx-auto  col-lg-2">

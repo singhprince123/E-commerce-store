@@ -68,7 +68,7 @@ const ProductWrapper = styled.div`
 &:hover{
   .card{
     border: 0.04rem solid rgba(0,0,0,0.2);
-    box-shadow: 2px 2px 5px 0px rgba(0,0, 0,0.2)
+    box-shadow: 2px 2px 5px 0px rgb(246, 148, 148)
   }
   .card-footer{
     background: rgba(247, 247, 247);

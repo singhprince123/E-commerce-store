@@ -28,12 +28,12 @@ export default function CartItem({item , value}) {
          <span className="btn btn-black mx-1" onClick={ ()=> increment(id)} >
          +
          </span>
-       </div>
+       </div>tempCart
       </div>
       {/* */}
       <div className="col-10 mx-auto  col-lg-2">
         <div className="cart-icon">
-         <i className="fas fa-trash" onClick={ () => removeItem() } ></i>
+         <i className="fas fa-trash" onClick={ () => removeItem(id) } ></i>
         </div>
       </div>
       <div className="col-10 mx-auto  col-lg-2">

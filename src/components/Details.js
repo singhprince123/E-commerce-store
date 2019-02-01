@@ -9,7 +9,7 @@ export default class Details extends Component {
      <ProductConsumer>
        { (value) => {
          const { id , title , img , price , company, info , inCart}= value.detailProduct;
-          console.log(value.detailProduct); 
+          
          return(
            <div className="container">
              {/*title */}

@@ -9,6 +9,8 @@ import Cart from './components/Cart/Cart'
 import Default from './components/Default'
 import Modal from './components/Modal'
 
+
+require('dotenv').config();
 class App extends Component {
   render() {
     return (

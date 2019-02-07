@@ -1,5 +1,6 @@
 import React from 'react';
 import PaypalExpressBtn from 'react-paypal-express-checkout';
+require('dotenv').config()
  
 export default class MyApp extends React.Component {
     render() {
@@ -28,7 +29,7 @@ export default class MyApp extends React.Component {
         let currency = 'USD'; // or you can set this value from your props or state
         //let total = 1; // same as above, this is the total amount (based on currency) to be paid by using Paypal express checkout
         // Document on Paypal's currency code: https://developer.paypal.com/docs/classic/api/currency_codes/
-        
+        console.log(process.env.REACT_APP_CLIENT_ID)
         const client = {
             sandbox: process.env.REACT_APP_CLIENT_ID,
             production: 'YOUR-PRODUCTION-APP-ID',

@@ -9,7 +9,7 @@ export default function Carousel() {
             const { iphone, one , lg , huwai }  = value.carouselImages;
         
             return (
-                <div id="demo" className="carousel slide" data-ride="carousel">
+                <div id="demo" className="carousel slide mx-atuo" data-ride="carousel">
                 <ul className="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" className="active"></li>
                     <li data-target="#demo" data-slide-to="1"></li>

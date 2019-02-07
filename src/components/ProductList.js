@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Product from "./Product";
 import Title from './Title';
 import { ProductConsumer } from '../Context'
+import Carousel from './Carousel'
 
 export default class ProductList extends Component {
 
@@ -10,6 +11,7 @@ export default class ProductList extends Component {
       
     return (
       <React.Fragment>
+         <Carousel />
           <div className='py-5'>
           <div className="container">
           <Title name="Our" title="products"/>  

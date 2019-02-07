@@ -8,8 +8,9 @@
 
 body{
   font-family: "Oswald" ,Sans-serif !important;
-  background: var(--mainwhite) !important;
+  background: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%) !important;
   color: var(--mainDark) !important
+  
 }
 
 .text-title{
@@ -45,4 +46,17 @@ body{
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow)
+}
+
+.carousel-item{
+  border: 5px solid white;
+  width: 90vw;
+  height: 60vh;
+  overflow: hidden;
+  box-shadow: 6px 2px 2px gray;
+}
+
+.carousel-item .carousel-img{
+  width: 100%;
+  height: 100%;
 }

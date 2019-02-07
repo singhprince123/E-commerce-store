@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { storeProducts , detailProduct } from './data'
+import { storeProducts , detailProduct , carouselImages } from './data'
 
 
 const ProductContext = React.createContext();
@@ -16,7 +16,8 @@ export default class ProductProvider extends Component {
        modalProduct: detailProduct,
        cartSubTotal: 0,
        cartTax: 0,
-       cartTotal:0
+       cartTotal:0,
+       carouselImages: carouselImages
     }
 
     componentDidMount(){
@@ -162,7 +163,8 @@ export default class ProductProvider extends Component {
         increment: this.increment,
         decrement: this.decrement,
         removeItem: this.removeItem,
-        clearCart: this.clearCart
+        clearCart: this.clearCart,
+        carouselImages: this.state.carouselImages
       }
        }>
           {this.props.children}

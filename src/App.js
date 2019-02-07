@@ -8,7 +8,7 @@ import Details from './components/Details'
 import Cart from './components/Cart/Cart'
 import Default from './components/Default'
 import Modal from './components/Modal'
-
+import Carousel from './components/Carousel'
 
 require('dotenv').config();
 class App extends Component {
@@ -16,6 +16,7 @@ class App extends Component {
     return (
      <React.Fragment>
         <Navbar />
+        <Carousel />
         <Switch>
           <Route path="/details" component={Details}></Route>
           <Route path="/cart" component={Cart}></Route>

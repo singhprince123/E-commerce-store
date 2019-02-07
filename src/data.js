@@ -114,3 +114,11 @@ export const detailProduct = {
   count: 0,
   total: 0
 };
+
+export const  carouselImages = {
+  samsung: 'img/samsung.jpeg',
+  huwai: 'img/huwai.jpeg',
+  iphone: 'img/iphone.jpeg',
+  lg: 'img/lg.jpg',
+  one: 'img/one.jpeg'
+}

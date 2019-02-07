@@ -48,12 +48,16 @@ body{
   color: var(--mainYellow)
 }
 
+.carousel{
+  margin: 0 auto !important
+}
+
 .carousel-item{
-  border: 5px solid white;
-  width: 90vw;
+  border: 8px solid white;
+  width: 100vw;
   height: 60vh;
   overflow: hidden;
-  box-shadow: 6px 2px 2px gray;
+  
 }
 
 .carousel-item .carousel-img{

@@ -16,7 +16,7 @@ export default function Carousel() {
                     <li data-target="#demo" data-slide-to="2"></li>
                     <li data-target="#demo" data-slide-to="3"></li>
                 </ul>
-                <div className="carousel-inner">
+                <div className="carousel-inner mx-auto">
                   <div className="carousel-item active">
                    <img src={iphone} alt="Los Angeles" className="carousel-img" />
                    </div>
